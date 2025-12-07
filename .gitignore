@@ -1,0 +1,60 @@
+# ------------------------
+# Python ignores
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# ------------------------
+# Virtual environment
+# ------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ------------------------
+# Jupyter / VSCode
+# ------------------------
+.ipynb_checkpoints/
+.vscode/
+settings.json
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Dataset (do NOT upload)
+# ------------------------
+dataset/
+online_dataset/
+
+# ------------------------
+# Exported models (large)
+# ------------------------
+exported_models/
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# ------------------------
+# Numpy arrays
+# ------------------------
+*.npy
+*.npz
+
+# ------------------------
+# Logs, cache
+# ------------------------
+logs/
+cache/
+*.cache
